@@ -53,8 +53,13 @@ public class Runner : MonoBehaviour
         {
             if (Input.GetKeyDown(sensor))
             {
-                hidden = false;
+
             }
+        }
+
+        if (Input.GetKeyDown(KeyCode.L))
+        {
+            lives--;
         }
     }
 }
